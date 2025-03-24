@@ -1,0 +1,38 @@
+.caculadora {
+    width: 300px;
+    margin: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+
+    input[text="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 1.5em;
+        border: 1px solid #ddd;
+        text-align: right;
+        background-color: #f0f0f0;
+        color: #333;
+    }
+
+    .botoes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+
+        button {
+            padding: 15px;
+            font-size: 1.2em;
+            border: 1px solid #bbb;
+            border-radius: 3px;
+            background-color: #eee;
+            color: #333;
+            cursor: pointer;
+
+        &:hover {
+            background-color: #ddd;
+        }
+        }
+    }
+}
